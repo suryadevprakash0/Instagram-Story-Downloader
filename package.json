@@ -1,0 +1,24 @@
+{
+  "name": "insta-downloader",
+  "version": "1.0.0",
+  "description": "A simple Instagram story downloader.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "instagram",
+    "downloader",
+    "story"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "instagram-private-api": "^1.45.3"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
